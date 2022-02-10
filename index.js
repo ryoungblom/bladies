@@ -15,9 +15,7 @@ app.get('/', (req, res) => {
     'index',
     {
       title: 'Coming Soon!',
-      mainText: 'Ladies in Bitcoin',
-      subText: `Drop your email address below and we’ll let you know when we launch our site!
-      <br>Brought to you by amazing ladies in Bitcoin.`
+      subText: `Drop your email address below and we’ll let you know when we launch our site! Brought to you by amazing ladies in Bitcoin.`
     }
     );
 });
