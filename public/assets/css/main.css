@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 /*
 	Eventually by HTML5 UP
 	html5up.net | @ajlkn
@@ -231,7 +232,7 @@ body {
 /* Type */
 body, input, select, textarea {
   color: rgba(43, 58, 103, 0.75);
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16pt;
   font-weight: 400;
   letter-spacing: -0.01em;
@@ -809,7 +810,8 @@ button,
   #signup-form input[type="text"],
   #signup-form input[type="password"],
   #signup-form input[type="email"] {
-    width: 18em; }
+    background-color: rgba(255, 255, 255, .3);
+    width: 18em;}
   #signup-form > * {
     margin: 0 0 0 1em; }
   #signup-form > :first-child {
@@ -823,6 +825,7 @@ button,
       #signup-form input[type="type"],
       #signup-form input[type="password"],
       #signup-form input[type="email"] {
+        background-color: rgba(255, 255, 255, .8);
         width: 100%; }
       #signup-form > * {
         margin: 1.25em 0 0 0; }
@@ -874,6 +877,7 @@ button,
       left: 3.5em; } }
   @media screen and (max-width: 736px) {
     #footer {
+      color: black;
       bottom: 2em;
       left: 2em; } }
   @media screen and (max-width: 360px) {

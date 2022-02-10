@@ -20,7 +20,8 @@
   "homepage": "https://github.com/ryoungblom/bladies#readme",
   "dependencies": {
     "express": "^4.17.2",
-    "pug": "^3.0.2"
+    "pug": "^3.0.2",
+    "serve-favicon": "^2.5.0"
   },
   "engines": {
     "node": "16.x"
