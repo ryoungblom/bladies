@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
   res.render(
     'index',
     {
-      title: 'Coming Soon!',
+      title: 'Soon!',
       subText: `Drop your email address below and we’ll let you know when we launch our site! Brought to you by amazing ladies in Bitcoin.`
     }
     );
